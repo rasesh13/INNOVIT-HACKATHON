@@ -4,6 +4,8 @@ import { Helmet } from 'react-helmet-async'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import './styles/main.css'
+import { useEffect } from "react";
+
 
 const Home = lazy(() => import('./pages/Home'))
 const Heritage = lazy(() => import('./pages/Heritage'))
@@ -16,7 +18,18 @@ const Contact = lazy(() => import('./pages/Contact'))
 const Explore = lazy(() => import('./pages/Explore'))
 const NotFound = lazy(() => import('./pages/NotFound'))
 
-export default function App(){
+export default function App() {
+  useEffect(() => {
+    fetch("http://127.0.0.1:8000/places")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log("PLACES FROM BACKEND:", data);
+      })
+      .catch((err) => {
+        console.error("FETCH ERROR:", err);
+      });
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col motif">
       <Helmet>
@@ -25,16 +38,16 @@ export default function App(){
       <Navbar />
       <main className="flex-1">
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/heritage" element={<Heritage/>} />
-          <Route path="/festivals" element={<Festivals/>} />
-          <Route path="/arts" element={<ArtCrafts/>} />
-          <Route path="/cuisine" element={<Cuisine/>} />
-          <Route path="/languages" element={<Languages/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/contact" element={<Contact/>} />
-          <Route path="/explore" element={<Explore/>} />
-          <Route path="*" element={<NotFound/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/heritage" element={<Heritage />} />
+          <Route path="/festivals" element={<Festivals />} />
+          <Route path="/arts" element={<ArtCrafts />} />
+          <Route path="/cuisine" element={<Cuisine />} />
+          <Route path="/languages" element={<Languages />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />
