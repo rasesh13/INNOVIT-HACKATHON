@@ -5,7 +5,7 @@ delhi_places = {
         "cluster": "Mehrauli",
         "lat": 28.5245,
         "lon": 77.1855,
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Qutb_Minar_in_2018.jpg?width=600",
+        "image": "https://unsplash.com/photos/6eGxyrxTfD8/download?force=true&w=800&q=80",
         "description": "The Qutub Minar is a minaret that forms part of the Qutb complex, a UNESCO World Heritage Site in Delhi. It is the tallest brick minaret in the world and is surrounded by a large courtyard that contains other historical monuments, primarily from the initial period of the Delhi Sultanate.",
         "year_built": "1193-1386",
         "architect": "Qutb-ud-din Aybak",
@@ -23,7 +23,7 @@ delhi_places = {
     "red_fort": {
         "name": "Red Fort",
         "tags": ["history", "architecture", "unesco"],
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Red_Fort_in_2018.jpg?width=600",
+        "image": "https://unsplash.com/photos/_ymJkgX4Vhw/download?force=true&w=800&q=80",
         "description": "The Red Fort is a historic fort in the city of Delhi in India. It served as the main residence of the Mughal emperors.",
         "year_built": "1639-1648",
         "category": "Historic Fort",
@@ -40,7 +40,7 @@ delhi_places = {
     "jama_masjid": {
         "name": "Jama Masjid",
         "tags": ["history", "religion", "architecture"],
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jama_Masjid_Delhi_-_Inside_View.jpg?width=600",
+        "image": "https://unsplash.com/photos/HEIYl3TUtxE/download?force=true&w=800&q=80",
         "description": "The Jama Masjid is the principal mosque of Delhi. Built by Mughal emperor Shah Jahan, it can accommodate thousands of devotees.",
         "year_built": "1650-1656",
         "category": "Historic Mosque",
@@ -52,7 +52,7 @@ delhi_places = {
     "lotus_temple": {
         "name": "Lotus Temple",
         "tags": ["religion", "architecture", "peace"],
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bahai_Lotus_Temple,_Delhi,_India_6.jpg?width=600",
+        "image": "https://unsplash.com/photos/ePyY_T5d6RI/download?force=true&w=800&q=80",
         "description": "The Lotus Temple is a Baháʼí House of Worship shaped like a lotus flower. Open to people of all faiths.",
         "year_built": "1986",
         "category": "Religious Monument",
@@ -65,7 +65,7 @@ delhi_places = {
     "akshardham": {
         "name": "Akshardham Temple",
         "tags": ["religion", "culture", "architecture"],
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Akshardham_New_Delhi_03-2016.jpg?width=600",
+            "image": "https://unsplash.com/photos/LvqHz1teles/download?force=true&w=800&q=80",
         "description": "Akshardham is a Hindu temple showcasing Indian culture and spirituality. It features intricate carvings and beautiful architecture.",
         "year_built": "2005",
         "category": "Hindu Temple",
@@ -82,7 +82,7 @@ delhi_places = {
     "purana_qila": {
         "name": "Purana Qila",
         "tags": ["history", "architecture"],
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Purana_Qila_-_North_gate,_Delhi.jpg?width=600",
+        "image": "https://unsplash.com/photos/Sm1Xi-tEw3M/download?force=true&w=800&q=80",
         "description": "Purana Qila is an ancient fort in Delhi home to a Museum of Archaeology that displays artifacts from Mughal times.",
         "year_built": "1533",
         "category": "Historic Fort",
@@ -99,7 +99,7 @@ delhi_places = {
     "national_museum": {
         "name": "National Museum",
         "tags": ["museum", "history", "culture"],
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/National_Museum,_New_Delhi.jpg?width=600",
+        "image": "https://www.swantour.com/blogs/wp-content/uploads/2017/10/national-museum-delhi.jpg",
         "description": "The National Museum houses one of the richest collections of Indian art, featuring sculptures, paintings, and historical artifacts.",
         "year_built": "1949",
         "category": "Museum",
@@ -116,7 +116,7 @@ delhi_places = {
     "raj_ghat": {
         "name": "Raj Ghat",
         "tags": ["memorial", "history"],
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Raj_Ghat_Delhi.jpg?width=600",
+        "image": "https://peregrinetreks.com/wp-content/uploads/2025/06/delhi-raj-ghat.webp",
         "description": "Raj Ghat is the place where Mahatma Gandhi was cremated. It serves as a memorial to the Father of the Nation.",
         "year_built": "1948",
         "category": "Memorial",
@@ -129,7 +129,7 @@ delhi_places = {
     "hauz_khas": {
         "name": "Hauz Khas Fort",
         "tags": ["history", "architecture", "nature"],
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hauz_Khas_Fort,_Delhi,_India.jpg?width=600",
+        "image": "https://unsplash.com/photos/lyw263Tct7c/download?force=true&w=800&q=80",
         "description": "Hauz Khas is a historical fort and estate in South Delhi, built around a constructed lake and now home to a lively village complex.",
         "year_built": "14th Century",
         "category": "Historic Fort",
@@ -141,7 +141,7 @@ delhi_places = {
     "agrasen_ki_baoli": {
         "name": "Agrasen ki Baoli",
         "tags": ["history", "architecture"],
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Agrasen_Ki_Baoli_Delhi_2.jpg?width=600",
+        "image": "https://unsplash.com/photos/fzJDHUCZ0co/download?force=true&w=800&q=80",
         "description": "Agrasen ki Baoli is a 14-meter deep well constructed in 1526 with 104 steps. It's an incredible example of medieval architecture.",
         "year_built": "1526",
         "category": "Historic Stepwell",
@@ -153,7 +153,7 @@ delhi_places = {
     "humayun_tomb": {
         "name": "Humayun's Tomb",
         "tags": ["history", "architecture", "unesco"],
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Humayun's_Tomb_in_2018.jpg?width=600",
+        "image": "https://unsplash.com/photos/pwPSbwExzcY/download?force=true&w=800&q=80",
         "description": "Humayun's Tomb is a stunning example of Mughal architecture. It was the first garden-tomb on the Indian subcontinent.",
         "year_built": "1565-1572",
         "category": "Historic Tomb",
@@ -162,10 +162,22 @@ delhi_places = {
         "lat": 28.5933,
         "lon": 77.2507
     },
+    "jantar_mantar": {
+        "name": "Jantar Mantar",
+        "tags": ["science", "astronomy", "history"],
+        "image": "https://i0.wp.com/eindiatourism.in/wp-content/uploads/2023/05/India_Delhi_Jantar_Mantar_observatory_1.jpg",
+        "description": "Jantar Mantar is an 18th-century astronomical observatory built by Maharaja Jai Singh II, featuring a set of architectural astronomical instruments.",
+        "year_built": "1724",
+        "category": "Astronomical Observatory",
+        "tickets": {"indian": 30, "student": 15, "foreigner": 200},
+        "cluster": "Connaught Place",
+        "lat": 28.6275,
+        "lon": 77.2180
+    },
     "india_gate": {
         "name": "India Gate",
         "tags": ["history", "monument"],
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/India_Gate_in_2018.jpg?width=600",
+        "image": "https://unsplash.com/photos/XjKaPInYVCM/download?force=true&w=800&q=80",
         "description": "India Gate is a war memorial dedicated to Indian soldiers who died in World War I. It's an iconic landmark and popular tourist destination.",
         "year_built": "1931",
         "category": "War Memorial",
